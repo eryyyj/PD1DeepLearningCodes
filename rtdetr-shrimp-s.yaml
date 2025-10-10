@@ -8,7 +8,7 @@
 nc: 1 # number of classes
 scale: # model compound scaling constants, i.e. 'model=yolov8n-cls.yaml' will call yolov8-cls.yaml with scale 'n'
   # [depth, width, max_channels]
-  s: [0.17, 0.125, 128]
+  s: [0.10, 0.100, 100]
   
 
 backbone:
